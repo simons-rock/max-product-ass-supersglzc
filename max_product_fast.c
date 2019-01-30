@@ -2,7 +2,7 @@
 #define SWAP(a,b) {int temp; temp=a; a=b; b=temp;}
 int max_pairwise_product_fast(int *arr, int size){
         int index = 0;
-        for (int i = 1; i < size; i ++){
+        for ( int i = 1; i < size; i ++){
                 if (arr[index] < arr[i]){
                         index = i;
                 }
